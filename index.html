@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styles/style.css">
+   <title>dz5</title>
+</head>
+<body>
+   <main>
+      <section class="form-holder">
+         <form>
+            <div class="name">
+               <label for="name">Повне Ім'я</label>
+               <input id="name" type="text">
+            </div>
+            <div class="email">
+               <label for="email">Email</label>
+               <input id="email" type="text">
+            </div>
+            <div class="password">
+               <label for="pass">Пароль</label>
+               <input id="pass" type="text">
+            </div>
+            <div class="again-password">
+               <label for="pass-two">Пароль ще раз</label>
+               <input id="pass-two" type="text">
+            </div>
+            <span class="span">Стать</span>
+            <div class="sex">
+               <input type="radio" id="male" name="sex" value="Male">
+               <label for="male">Чоловік</label>
+               <input type="radio" id="frmale" name="sex" value="Female">
+               <label for="frmale">Жінка</label>
+            </div>
+            <div class="age">
+               <label for="age">Вік</label>
+               <input type="text" id="age" size="2">
+            </div>
+            <div class="course">
+               <label for="course">Курс</label>
+               <select name="courses" id="course">
+                  <option selected disabled>Виберіть курс</option>
+                  <option value="front-end">Front-End Розробка</option>
+                  <option value="python">Python Розробка</option>
+                  <option value="marketing">Digital Marketing</option>
+                  <option value="csharp">C# Розробка</option>
+               </select>
+            </div>
+            <div class="adress">
+               <label for="adress">Повна адреса</label>
+               <textarea name="adress" id="adress" cols="23" rows="4">Країна,регіон,місто/селище,вулиця</textarea>
+            </div>
+            <div class="agree">
+               <input type="checkbox" id="agree" name="agree" value="personalagree">
+               <label for="agree">Я погоджуюсь з обробкою персональних даних</label>
+            </div>
+            <div class="buttons">
+               <button>Очистити форму</button>
+               <button type="submit">Зареєструватися</button>
+            </div>
+         </form>
+      </section>
+   </main>
+</body>
+</html>

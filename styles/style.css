@@ -1,0 +1,95 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+main{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+}
+
+
+.form-holder{
+   width: 100%;
+   max-width: 500px;
+   margin: 0px auto;
+   background-color: rgb(212, 212, 212);
+}
+
+.name{
+   margin-top: 10px;
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 15px;
+   padding-right: 30px;
+}
+.email{
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 15px;
+   padding-right: 30px
+}
+
+.password{
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 15px;
+   padding-right: 30px
+}
+
+.again-password{
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 15px;
+   padding-right: 30px
+}
+
+.sex{
+   margin-bottom: 20px;
+   display: inline-block;
+   padding-left: 200px;
+}
+
+.span{
+   padding-left: 15px;
+}
+
+.age{
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 15px;
+   padding-right: 150px;
+}
+
+.course{
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 15px;
+   padding-right: 65px;
+}
+
+.adress{
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 15px;
+   padding-right: 30px
+}
+
+.agree{
+   margin-left: 15px;
+   margin-bottom: 20px;
+}
+
+.buttons{
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 20px;
+   margin-left: 100px;
+   margin-right: 100px;
+}
